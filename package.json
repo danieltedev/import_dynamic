@@ -1,0 +1,12 @@
+{
+  "name": "import_dynamic",
+  "version": "1.0.0",
+  "description": "teste do import dynamic do javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"import('./index.js').then(index => index.handler())\""
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
